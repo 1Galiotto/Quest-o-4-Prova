@@ -1,0 +1,87 @@
+/* Estilo básico (do código anterior) */
+
+body {
+    font-family: 'Arial', sans-serif; /* Fonte mais elegante */
+    background-color: rgb(250, 118, 118); /* Cor de fundo cinza claro */
+    color: #ffffff; /* Cor do texto escura */
+    margin: 0; /* Remove margem padrão do body */
+    padding: 20px; /* Adiciona preenchimento ao redor do conteúdo */
+}
+
+h1 {
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 20px; /* Adiciona espaço abaixo do título */
+}
+
+form {
+    max-width: 500px; /* Limita a largura do formulário */
+    margin: 0 auto; /* Centraliza o formulário na tela */
+    padding: 20px; /* Adiciona preenchimento ao formulário */
+    background-color: #ffffff; /* Cor de fundo branco para o formulário */
+    border-radius: 5px; /* Cantos arredondados para o formulário */
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.1); /* Sombra sutil para destacar o formulário */
+    color: black;
+    box-shadow: 10px 5px 5px rgb(190, 96, 96);
+}
+
+label {
+    display: block; /* Exibe os rótulos em uma linha separada */
+    margin-bottom: 5px; /* Adiciona espaço abaixo dos rótulos */
+}
+
+input[type="number"] {
+    width: 100%; /* Ocupa toda a largura disponível */
+    padding: 8px; /* Aumenta o preenchimento dos campos de entrada */
+    border: 1px solid #ccc;
+    border-radius: 3px; /* Cantos arredondados para os campos de entrada */
+}
+
+button {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    padding: 12px 20px; /* Aumenta o preenchimento do botão */
+    border: none;
+    border-radius: 3px; /* Cantos arredondados para o botão */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Efeito de hover suave */
+}
+
+button:hover {
+    background-color: #45a049; /* Verde mais escuro no hover */
+}
+
+#resultados {
+    margin-top: 30px; /* Aumenta o espaço acima dos resultados */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(243, 78, 78);
+    box-shadow: 10px 5px 5px rgb(151, 67, 67); /* Sombra sutil para destacar os resultados */
+    text-align: center;
+}
+
+#resultados p {
+    margin-bottom: 15px; /* Aumenta o espaço entre os resultados */
+}
+
+/* Links para redes sociais */
+
+.redes-sociais {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.redes-sociais a {
+    display: inline-block; /* Exibe os links como blocos em linha */
+    margin: 0 10px; /* Adiciona espaço entre os links */
+}
+
+.redes-sociais img {
+    width: 30px; /* Tamanho das imagens das redes sociais */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+div{
+    margin-left: 70vh;
+    margin-right: 70vh;
+}
+
